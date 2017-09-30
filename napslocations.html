@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="D3byEX 12.18" />
+    <meta charset="utf-8">
+</head>
+    
+    
+ 
+    
+<body>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js">
+</script>
+        <script type="text/javascript" src="jquery.tipsy.js"></script>
+        <link href="tipsy.css" rel="stylesheet" type="text/css" />
+
+
+    <script>
+        
+        var width = 1000, height = 500,
+            scale0 = (width - 1) / 2 / Math.PI;
+
+        var hwidth = 200, hheight = 200;
+        
+    
+        
+    
+        /*
+        var holder = d3.select("body")
+      .append("svg")
+      .attr("width", hwidth)    
+      .attr("height", hheight);
+      */
+
+        
+        var svg = d3.select('body')
+            .append('svg')
+            .attr({
+                width: width,
+                height: height
+            })
+        
+    /*   
+    var svg = d3.select("body")
+  .append("svg")
+  .attr("width", "100%")
+  .attr("height", "100%")
+  .call(d3.behavior.zoom().on("zoom", function () {
+    svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
+  }))
+  .append("g")
+  */
+        
+        
+        
+        /* Hello */
+        
+        
+        var usDataUrl = 'https://gist.githubusercontent.com/kavasseri/257f09cc9cbd423fcfc8e96073d05f7b/raw/f964e4d3b18048e888ed0b4701ea8e62d3415f44/us-states.json',
+            citiesDataUrl = 'https://gist.githubusercontent.com/kavasseri/05230fa6bb6ee3a29e6fb463b6f6c02b/raw/b5956022025bd8b5d90b2e8ccb79cc50b2d09fc5/napsnet.csv';
+            
+            
+        queue()
+            .defer(d3.json, usDataUrl)
+            .defer(d3.csv, citiesDataUrl)
+            .await(function (error, states, cities) {
+                var path = d3.geo.path();
+                var projection = d3.geo.albersUsa()
+                    .translate([width / 2, height / 2])
+                    .scale([1000]);
+                path.projection(projection);
+
+                svg.selectAll('path')
+                    .data(states.features)
+                    .enter()
+                    .append('path')
+                    .attr('d', path)
+                    .style({
+                        fill: '#36454F',
+                        stroke: 'white'
+                    });
+
+                svg.selectAll('circle')
+                          .data(cities)
+                          .enter()
+                          .append('circle')
+                          .each(function (d) {
+                              var location = projection([d.longitude, d.latitude]);
+                              d3.select(this).attr({
+                                  cx: location[0], cy: location[1],
+                                  r: 6
+                              });
+                          })
+                          .style({
+                              fill: 'deeppink',
+                             stroke: 'white',
+                             opacity: 0.90
+                          })
+            .append("title")
+            .text(d=>d.name)
+            .append("text")
+            .text(d=>d.year)
+            });        
+    </script>
+</body>
+</html>

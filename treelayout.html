@@ -46,6 +46,11 @@ var svg = d3.select("body").append("svg")
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  
+ svg.append("rect")
+.attr("width", "100%")
+.attr("height", "100%")
+.attr("fill", "white");
 
 d3.json("flare.json", function(error, flare) {
   if (error) throw error;

@@ -45,9 +45,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", width + margin.right + margin.left)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
-.style({
-                        fill: '#36454F',
-                    })
+ .attr("fill", "pink");
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 d3.json("flare.json", function(error, flare) {

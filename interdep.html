@@ -58,7 +58,6 @@ links.forEach(function(link) {
 var width = 960,
     height = 500,
     color = d3.scale.category20c();
-
  
 var force = d3.layout.force()
     .nodes(d3.values(nodes))
@@ -126,7 +125,6 @@ var node = svg.selectAll(".node")
 node.append("circle")
     .attr("r", 5)
     .style("fill", function(d) { return color(d.name); });
-
  
 // add the text 
 node.append("text")

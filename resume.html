@@ -19,15 +19,12 @@
 
     <script>
         
-        var width = 1000, height = 500,
-            scale0 = (width - 1) / 2 / Math.PI;
-        var hwidth = 200, hheight = 200;
+ 
         
     
   var resume = new d3Resume({
   width: 900,
   height: 900,
-  wrapperSelector: "article.resume",
   dataUrl: 'data.json',
   getItemFillCollor: function (item) {
     return '#' + (function co(lor){   return (lor +=

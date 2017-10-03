@@ -43,7 +43,7 @@ rect:hover {  fill:blue; }
 <script>
 function dashboard(id, fData){
     var barColor = 'deeppink';
-    function segColor(c){ return {coal:"#A77E74", gas:"#D5AbA1",wind:"#F1E3DF",solar:"#A78E74",other:"#A77F74"}[c]; }
+    function segColor(c){ return {coal:"#5C5B5D", gas:"#ADD8E6",wind:"#F1E3DF",solar:"#FDB813",other:"#A77F74"}[c]; }
     
     // compute total for each state.
     fData.forEach(function(d){d.total=d.freq.coal+d.freq.gas+d.freq.wind+d.freq.solar+d.freq.other;});

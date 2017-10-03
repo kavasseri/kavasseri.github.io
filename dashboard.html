@@ -43,10 +43,10 @@ rect:hover {  fill:blue; }
 <script>
 function dashboard(id, fData){
     var barColor = 'deeppink';
-    function segColor(c){ return {emergency:"#A77E74", housing:"#D5AbA1",unsheltered:"#F1E3DF",wind:"#A78E74",solar:"#A77F74"}[c]; }
+    function segColor(c){ return {coal:"#A77E74", gas:"#D5AbA1",wind:"#F1E3DF",solar:"#A78E74",other:"#A77F74"}[c]; }
     
     // compute total for each state.
-    fData.forEach(function(d){d.total=d.freq.emergency+d.freq.housing+d.freq.unsheltered+d.freq.wind+d.freq.solar;});
+    fData.forEach(function(d){d.total=d.freq.coal+d.freq.gas+d.freq.wind+d.freq.solar+d.freq.other;});
     
     // function to handle histogram.
     function histoGram(fD){
@@ -226,7 +226,7 @@ function dashboard(id, fData){
     }
     
     // calculate total frequency by segment for all state.
-    var tF = ['emergency','housing','unsheltered','wind','solar'].map(function(d){ 
+    var tF = ['coal','gas','wind','solar','other'].map(function(d){ 
         return {type:d, freq: d3.sum(fData.map(function(t){ return t.freq[d];}))}; 
     });    
     
@@ -241,16 +241,13 @@ function dashboard(id, fData){
 
 <script>
 var freqData=[
-{State:'CA',freq:{emergency:21766, housing:17986, unsheltered:78390, wind:17899,solar:17989}}
-,{State:'NY',freq:{emergency:75595, housing:7166, unsheltered:3591,wind:1789,solar:15464}}
-,{State:'FL',freq:{emergency:10526, housing:7672, unsheltered:15361,wind:46851,solar:57581}}
-,{State:'TX',freq:{emergency:10448, housing:5766, unsheltered:6908,wind:5751,solar:48491}}
-,{State:'WA',freq:{emergency:6752, housing:5609, unsheltered:8466,wind:3031,solar:39301}}
-,{State:'MA',freq:{emergency:15714, housing:3134, unsheltered:760,wind:30381,solar:4841}}
-,{State:'PA',freq:{emergency:7784, housing:5880, unsheltered:1675,wind:47841,solar:24581}}
-,{State:'OR',freq:{emergency:3138, housing:2098, unsheltered:8002,wind:102857,solar:17154}}
-,{State:'GA',freq:{emergency:3963, housing:3580, unsheltered:5366,wind:37361,solar:3831}}
-,{State:'IL',freq:{emergency:4183, housing:5553, unsheltered:1854,wind:65751,solar:6571}}
+{State:'10',freq:{coal:32, gas:36, wind:24, solar:4,other:4}}
+,{State:'11',freq:{coal:10, gas:51, wind:29, solar:8,other:3}}
+,{State:'12',freq:{coal:16, gas:31, wind:41, solar:9,other:4}}
+,{State:'13',freq:{coal:10, gas:47, wind:7, solar:27,other:9}}
+,{State:'14',freq:{coal:1, gas:43, wind:25, solar:27,other:5}}
+,{State:'15',freq:{coal:0, gas:29, wind:39, solar:30,other:3}}
+,{State:'16',freq:{coal:1, gas:1, wind:33, solar:64,other:3}}
 ];
 
 dashboard('#dashboard',freqData);

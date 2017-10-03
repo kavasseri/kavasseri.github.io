@@ -226,7 +226,7 @@ function dashboard(id, fData){
     }
     
     // calculate total frequency by segment for all state.
-    var tF = ['emergency','housing','unsheltered'].map(function(d){ 
+    var tF = ['emergency','housing','unsheltered','wind','solar'].map(function(d){ 
         return {type:d, freq: d3.sum(fData.map(function(t){ return t.freq[d];}))}; 
     });    
     
@@ -241,16 +241,16 @@ function dashboard(id, fData){
 
 <script>
 var freqData=[
-{State:'CA',freq:{emergency:21766, housing:17986, unsheltered:78390}}
-,{State:'NY',freq:{emergency:75595, housing:7166, unsheltered:3591}}
-,{State:'FL',freq:{emergency:10526, housing:7672, unsheltered:15361}}
-,{State:'TX',freq:{emergency:10448, housing:5766, unsheltered:6908}}
-,{State:'WA',freq:{emergency:6752, housing:5609, unsheltered:8466}}
-,{State:'MA',freq:{emergency:15714, housing:3134, unsheltered:760}}
-,{State:'PA',freq:{emergency:7784, housing:5880, unsheltered:1675}}
-,{State:'OR',freq:{emergency:3138, housing:2098, unsheltered:8002}}
-,{State:'GA',freq:{emergency:3963, housing:3580, unsheltered:5366}}
-,{State:'IL',freq:{emergency:4183, housing:5553, unsheltered:1854}}
+{State:'CA',freq:{emergency:21766, housing:17986, unsheltered:78390, wind:1,solar:1}}
+,{State:'NY',freq:{emergency:75595, housing:7166, unsheltered:3591,wind:1,solar:1}}
+,{State:'FL',freq:{emergency:10526, housing:7672, unsheltered:15361,wind:1,solar:1}}
+,{State:'TX',freq:{emergency:10448, housing:5766, unsheltered:6908,wind:1,solar:1}}
+,{State:'WA',freq:{emergency:6752, housing:5609, unsheltered:8466,wind:1,solar:1}}
+,{State:'MA',freq:{emergency:15714, housing:3134, unsheltered:760,wind:1,solar:1}}
+,{State:'PA',freq:{emergency:7784, housing:5880, unsheltered:1675,wind:1,solar:1}}
+,{State:'OR',freq:{emergency:3138, housing:2098, unsheltered:8002,wind:1,solar:1}}
+,{State:'GA',freq:{emergency:3963, housing:3580, unsheltered:5366,wind:1,solar:1}}
+,{State:'IL',freq:{emergency:4183, housing:5553, unsheltered:1854,wind:1,solar:1}}
 ];
 
 dashboard('#dashboard',freqData);

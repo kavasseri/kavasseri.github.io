@@ -43,10 +43,10 @@ rect:hover {  fill:blue; }
 <script>
 function dashboard(id, fData){
     var barColor = 'deeppink';
-    function segColor(c){ return {emergency:"#A77E74", housing:"#D5AbA1",unsheltered:"#F1E3DF"}[c]; }
+    function segColor(c){ return {emergency:"#A77E74", housing:"#D5AbA1",unsheltered:"#F1E3DF",wind:"#A78E74",solar:"#A77F74"}[c]; }
     
     // compute total for each state.
-    fData.forEach(function(d){d.total=d.freq.emergency+d.freq.housing+d.freq.unsheltered;});
+    fData.forEach(function(d){d.total=d.freq.emergency+d.freq.housing+d.freq.unsheltered+d.freq.wind+d.freq.solar;});
     
     // function to handle histogram.
     function histoGram(fD){

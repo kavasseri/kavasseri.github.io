@@ -7,7 +7,7 @@ body{
 }
 path {  stroke: #fff; }
 path:hover {  opacity:0.9; }
-rect:hover {  fill:blue; }
+rect:hover {  fill:slategray; }
 .axis {  font: 10px sans-serif; }
 .legend tr{    border-bottom:1px solid grey; }
 .legend tr:first-child{    border-top:1px solid grey; }
@@ -42,7 +42,7 @@ rect:hover {  fill:blue; }
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
 function dashboard(id, fData){
-    var barColor = 'lightcoral';
+    var barColor = 'silver';
     function segColor(c){ return {coal:"#5C5B5D", gas:"#ADD8E6",wind:"#3AB26F",solar:"#FDB813",other:"#A77F74"}[c]; }
     
     // compute total for each state.

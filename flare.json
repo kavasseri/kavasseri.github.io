@@ -13,6 +13,22 @@
           {
             "name": "Model Validation",
             "parent": "AMPS"
+          },
+            {
+            "name": "Model Aggregation",
+            "parent": "AMPS"
+          },
+            {
+            "name": "Load Forecasting",
+            "parent": "AMPS"
+          },
+            {
+            "name": "Emerging Loads",
+            "parent": "AMPS"
+          },
+            {
+            "name": "Uncertainties",
+            "parent": "AMPS"
           }
         ]
       },
@@ -23,11 +39,19 @@
         "parent": "ARCHES",
           "children": [
           {
-            "name": "Son of A",
+            "name": "Control Interactions",
             "parent": "PEPSY"
           },
           {
-            "name": "Daughter of A",
+            "name": "Stability Centric",
+            "parent": "PEPSY"
+          },
+              {
+            "name": "Harmonics",
+            "parent": "PEPSY"
+          },
+              {
+            "name": "Testbed Validation",
             "parent": "PEPSY"
           }
         ]
@@ -39,11 +63,19 @@
         "parent": "ARCHES",
           "children": [
           {
-            "name": "Son of A",
+            "name": "IT concepts",
             "parent": "COSMIC-ps"
           },
           {
-            "name": "Daughter of A",
+            "name": "Hybrid Simulation",
+            "parent": "COSMIC-ps"
+          },
+              {
+            "name": "Cyber-emulation",
+            "parent": "COSMIC-ps"
+          },
+              {
+            "name": "Faster than Realtime",
             "parent": "COSMIC-ps"
           }
         ]
@@ -55,11 +87,15 @@
         "parent": "ARCHES",
           "children": [
           {
-            "name": "Son of A",
+            "name": "Resilience Metrics",
             "parent": "DARES"
           },
           {
-            "name": "Daughter of A",
+            "name": "System Restoration",
+            "parent": "DARES"
+          },
+              {
+            "name": "Extreme Events",
             "parent": "DARES"
           }
         ]

@@ -34,7 +34,33 @@
       },
       {
         "name": "PEPSY",
-        "parent": "ARCHES"
+        "parent": "ARCHES",
+          "children": [
+          {
+            "name": "Scalability",
+            "parent": "AMPS"
+          },
+          {
+            "name": "Validation",
+            "parent": "AMPS"
+          },
+            {
+            "name": "Aggregation",
+            "parent": "AMPS"
+          },
+            {
+            "name": "Load forecasting",
+            "parent": "AMPS"
+          },
+            {
+            "name": "Emerging Loads",
+            "parent": "AMPS"
+          },
+            {
+            "name": "Model Uncertainties",
+            "parent": "AMPS"
+          }
+        ] 
       }
     ]
   }

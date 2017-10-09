@@ -13,6 +13,22 @@
           {
             "name": "Validation",
             "parent": "AMPS"
+          },
+            {
+            "name": "Aggregation",
+            "parent": "AMPS"
+          },
+            {
+            "name": "Load forecasting",
+            "parent": "AMPS"
+          },
+            {
+            "name": "Emerging Loads",
+            "parent": "AMPS"
+          },
+            {
+            "name": "Model Uncertainties",
+            "parent": "AMPS"
           }
         ]
       },

@@ -1,66 +1,66 @@
 {
-    "name": "Top Level",
+    "name": "ARCHES",
     "parent": "null",
     "children": [
       {
-        "name": "Level 2: A",
-        "parent": "Top Level",
+        "name": "AMPS",
+        "parent": "ARCHES",
         "children": [
           {
-            "name": "Son of A",
-            "parent": "Level 2: A"
+            "name": "Scalability",
+            "parent": "AMPS"
           },
           {
-            "name": "Daughter of A",
-            "parent": "Level 2: A"
+            "name": "Model Validation",
+            "parent": "AMPS"
           }
         ]
       },
         
         
       {
-        "name": "Level 2: B",
-        "parent": "Top Level",
+        "name": "PEPSY",
+        "parent": "ARCHES",
           "children": [
           {
             "name": "Son of A",
-            "parent": "Level 2: B"
+            "parent": "PEPSY"
           },
           {
             "name": "Daughter of A",
-            "parent": "Level 2: B"
+            "parent": "PEPSY"
           }
         ]
       },
         
         
          {
-        "name": "Level 2: C",
-        "parent": "Top Level",
+        "name": "COSMIC-ps",
+        "parent": "ARCHES",
           "children": [
           {
             "name": "Son of A",
-            "parent": "Level 2: C"
+            "parent": "COSMIC-ps"
           },
           {
             "name": "Daughter of A",
-            "parent": "Level 2: C"
+            "parent": "COSMIC-ps"
           }
         ]
       },
         
         
         {
-        "name": "Level 2: D",
-        "parent": "Top Level",
+        "name": "DARES",
+        "parent": "ARCHES",
           "children": [
           {
             "name": "Son of A",
-            "parent": "Level 2: D"
+            "parent": "DARES"
           },
           {
             "name": "Daughter of A",
-            "parent": "Level 2: D"
+            "parent": "DARES"
           }
         ]
       }

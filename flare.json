@@ -1,66 +1,24 @@
 {
-    "name": "ARCHES",
+    "name": "Top Level",
     "parent": "null",
     "children": [
       {
-        "name": "AMPS",
-        "parent": "ARCHES",
+        "name": "Level 2: A",
+        "parent": "Top Level",
         "children": [
           {
-            "name": "Scalability",
-            "parent": "AMPS"
+            "name": "Son of A",
+            "parent": "Level 2: A"
           },
           {
-            "name": "Validation",
-            "parent": "AMPS"
-          },
-            {
-            "name": "Aggregation",
-            "parent": "AMPS"
-          },
-            {
-            "name": "Load forecasting",
-            "parent": "AMPS"
-          },
-            {
-            "name": "Emerging Loads",
-            "parent": "AMPS"
-          },
-            {
-            "name": "Model Uncertainties",
-            "parent": "AMPS",
+            "name": "Daughter of A",
+            "parent": "Level 2: A"
           }
         ]
       },
       {
-        "name": "PEPSY",
-        "parent": "ARCHES",
-          "children": [
-          {
-            "name": "Scalability",
-            "parent": "AMPS"
-          },
-          {
-            "name": "Validation",
-            "parent": "AMPS"
-          },
-            {
-            "name": "Aggregation",
-            "parent": "AMPS"
-          },
-            {
-            "name": "Load forecasting",
-            "parent": "AMPS"
-          },
-            {
-            "name": "Emerging Loads",
-            "parent": "AMPS"
-          },
-            {
-            "name": "Model Uncertainties",
-            "parent": "AMPS"
-          }
-        ] 
+        "name": "Level 2: B",
+        "parent": "Top Level"
       }
     ]
   }

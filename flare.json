@@ -18,7 +18,18 @@
       },
       {
         "name": "Level 2: B",
-        "parent": "Top Level"
+        "parent": "Top Level",
+          "children": [
+          {
+            "name": "Son of A",
+            "parent": "Level 2: B"
+          },
+          {
+            "name": "Daughter of A",
+            "parent": "Level 2: B"
+          }
+        ]
+          
       }
     ]
   }

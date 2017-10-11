@@ -36,7 +36,7 @@
                       "parent": "Uncertainties"
                   },
                      {
-                      "name": "Grazing",
+                      "name": "Traj.Sensitivity",
                       "parent": "Uncertainties"
                   }
                      
@@ -72,15 +72,62 @@
           },
               {
             "name": "Robustness",
-            "parent": "PEPSY"
+            "parent": "PEPSY",
+                  
+                  "children": [
+                  {
+                      "name": "Steady State",
+                      "parent": "Robustness"
+                  },
+                     {
+                      "name": "Ride Through",
+                      "parent": "Robustness"
+                  },
+                      {
+                      "name": "Islanding",
+                      "parent": "Robustness"
+                  }
+                      ]
+                      
+                  
+                  
           },
               {
             "name": "Restoration",
-            "parent": "PEPSY"
+            "parent": "PEPSY",
+                  
+                   "children": [
+                  {
+                      "name": "Local",
+                      "parent": "Restoration"
+                  },
+                     {
+                      "name": "Upstream",
+                      "parent": "Restoration"
+                  }
+                      
+                      ]
           },
               {
             "name": "Protection",
-            "parent": "PEPSY"
+            "parent": "PEPSY",
+                  
+                   "children": [
+                  {
+                      "name": "Fault visibility",
+                      "parent": "Protection"
+                  },
+                     {
+                      "name": "Infeeds",
+                      "parent": "Protection"
+                  },
+                      {
+                      "name": "Reclosure",
+                      "parent": "Protection"
+                  }
+                      ]
+                  
+                  
           }
         ]
       },
@@ -92,7 +139,18 @@
           "children": [
           {
             "name": "IT concepts",
-            "parent": "COSMIC-ps"
+            "parent": "COSMIC-ps",
+              
+               "children": [
+                  {
+                      "name": "SDN",
+                      "parent": "IT concepts"
+                  },
+                     {
+                      "name": "NFV",
+                      "parent": "IT concepts"
+                  }
+              
           },
           {
             "name": "Hybrid Simulation",
@@ -128,7 +186,15 @@
               
               "children": [
                   {
-                      "name": "Hi",
+                      "name": "Recovery",
+                      "parent": "Resilience Metrics"
+                  },
+                  {
+                      "name": "Margins",
+                      "parent": "Resilience Metrics"
+                  },
+                  {
+                      "name": "Adaptiveness/Speed",
                       "parent": "Resilience Metrics"
                   }
                   ]

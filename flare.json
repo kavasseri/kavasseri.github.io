@@ -69,6 +69,18 @@
               {
             "name": "Testbed Validation",
             "parent": "PEPSY"
+          },
+              {
+            "name": "Robustness",
+            "parent": "PEPSY"
+          },
+              {
+            "name": "Restoration",
+            "parent": "PEPSY"
+          },
+              {
+            "name": "Protection",
+            "parent": "PEPSY"
           }
         ]
       },
@@ -93,6 +105,14 @@
               {
             "name": "Faster than Realtime",
             "parent": "COSMIC-ps"
+          },
+              {
+            "name": "Networked Testbeds",
+            "parent": "COSMIC-ps"
+          },
+              {
+            "name": "Reconfig. Computing",
+            "parent": "COSMIC-ps"
           }
         ]
       },
@@ -116,6 +136,7 @@
               
              
           },
+              
           {
             "name": "System Restoration",
             "parent": "DARES"
@@ -123,7 +144,20 @@
               {
             "name": "Extreme Events",
             "parent": "DARES"
+          },
+              {
+            "name": "Cybersecurity",
+            "parent": "DARES"
+          },
+              {
+            "name": "Data Driven Modeling",
+            "parent": "DARES"
+          },
+              {
+            "name": "Energy Market Models",
+            "parent": "DARES"
           }
+              
         ]
       }
         

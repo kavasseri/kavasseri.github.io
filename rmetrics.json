@@ -3,19 +3,16 @@
     "parent": "null",
     "children": [
       {
-        "name": "Grant-centric",
-        "parent": "R Enterprise",
+        "name": "Grant-centric"
         "children": [
           {
-            "name": "Scalability"
+            "name": "Federal Grant $"
           },
           {
-            "name": "Model Validation",
-            "parent": "AMPS"
+            "name": "# Grants"
           },
             {
-            "name": "Model Aggregation",
-            "parent": "AMPS"
+            "name": "$/grant"
           },
             {
             "name": "Load Forecasting",

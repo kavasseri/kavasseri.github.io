@@ -56,7 +56,19 @@
               
               "children": [
           {
-            "name": "Journal Papers"
+            "name": "Journal Papers",
+              
+              "children": [
+          {
+            "name": "# J. Papers/faculty", 
+           },
+                  
+                   {
+            "name": "% Faculty with J. Papers"
+          }
+                  ]
+              
+              
            },
                   
                    {

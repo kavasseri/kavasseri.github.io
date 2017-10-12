@@ -105,11 +105,20 @@
               
            
               {
-            "name": "# Patents"   
+            "name": "# Innovations" ,
+                  
+                  "children": [
+          {
+            "name": "# Patents"
           },
-              {
-            "name": "# Companies Inc."   
+          {
+            "name": "# Companies Inc."
           }
+        ]
+                  
+                  
+          }
+              
                   
         ]
       },

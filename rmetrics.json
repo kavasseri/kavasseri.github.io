@@ -41,7 +41,13 @@
           
           "children": [
           {
-            "name": "# Journal Papers"
+            "name": "# Publications",
+              
+              "children": [
+          {
+            "name": "Journal Papers"
+           }
+                  ]
           },
           {
             "name": "# Conference Papers"

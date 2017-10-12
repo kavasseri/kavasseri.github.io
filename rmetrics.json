@@ -71,7 +71,18 @@
           },
                      
           {
-            "name": "# Conf Pubs."
+            "name": "# Conf Pubs.",
+              
+              "children": [
+          {
+            "name": "# Conf Pubs/Fac"
+          },
+                     
+          {
+            "name": "% Faculty with C. Papers"
+           }
+         
+                  ]
            }
          
                   ]

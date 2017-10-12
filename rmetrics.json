@@ -38,83 +38,33 @@
         
       {
         "name": "Production-centric",
-        "parent": "ARCHES",
+          
           "children": [
           {
-            "name": "Control Interactions",
-            "parent": "PEPSY"
+            "name": "# Journal Papers",
           },
           {
-            "name": "Stability Centric",
-            "parent": "PEPSY"
+            "name": "# Conference Papers",
           },
               {
-            "name": "Harmonics",
-            "parent": "PEPSY"
+            "name": "# J. Papers/faculty",
           },
               {
-            "name": "Testbed Validation",
-            "parent": "PEPSY"
+            "name": "# C. Papers/faculty",
           },
               {
-            "name": "Robustness",
-            "parent": "PEPSY",
-                  
-                  "children": [
-                  {
-                      "name": "Steady State",
-                      "parent": "Robustness"
-                  },
-                     {
-                      "name": "Ride Through",
-                      "parent": "Robustness"
-                  },
-                      {
-                      "name": "Islanding",
-                      "parent": "Robustness"
-                  }
-                      ]
-                      
-                  
-                  
+            "name": "% Fac with J. Papers",   
           },
               {
-            "name": "Restoration",
-            "parent": "PEPSY",
-                  
-                   "children": [
-                  {
-                      "name": "Local",
-                      "parent": "Restoration"
-                  },
-                     {
-                      "name": "Upstream",
-                      "parent": "Restoration"
-                  }
-                      
-                      ]
+            "name": "% Fac with C. Papers",   
           },
               {
-            "name": "Protection",
-            "parent": "PEPSY",
-                  
-                   "children": [
-                  {
-                      "name": "Fault visibility",
-                      "parent": "Protection"
-                  },
-                     {
-                      "name": "Infeeds",
-                      "parent": "Protection"
-                  },
-                      {
-                      "name": "Reclosure",
-                      "parent": "Protection"
-                  }
-                      ]
-                  
-                  
+            "name": "# Patents",   
+          },
+              {
+            "name": "# Companies Inc.",   
           }
+                  
         ]
       },
         

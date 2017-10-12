@@ -25,7 +25,7 @@
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
-    width = 960 - margin.right - margin.left,
+    width = 1280 - margin.right - margin.left,
     height = 800 - margin.top - margin.bottom;
 var i = 0,
     duration = 750,
@@ -85,7 +85,7 @@ function update(source) {
       .duration(duration)
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
   nodeUpdate.select("circle")
-      .attr("r", 4.5)
+      .attr("r", 5.5)
       .style("fill", function(d) { return d._children ? "deeppink" : "#fff"; });
   nodeUpdate.select("text")
       .style("fill-opacity", 1);

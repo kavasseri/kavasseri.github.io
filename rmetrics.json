@@ -15,31 +15,13 @@
             "name": "$/grant"
           },
             {
-            "name": "Load Forecasting",
-            "parent": "AMPS"
+            "name": "Grant $/faculty"
           },
             {
-            "name": "Emerging Loads",
-            "parent": "AMPS"
+            "name": "# Grants/faculty"
           },
             {
-            "name": "Uncertainties",
-            "parent": "AMPS",
-                
-                 "children": [
-                  {
-                      "name": "PCM",
-                      "parent": "Uncertainties"
-                  },
-                     {
-                      "name": "Traj Sensitivity",
-                      "parent": "Uncertainties"
-                  }
-                     
-                  ]
-                
-                
-                
+            "name": "% faculty with grants",
                 
           }
         ]

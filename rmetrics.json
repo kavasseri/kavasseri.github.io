@@ -52,25 +52,32 @@
           
           "children": [
           {
-            "name": "# Journal Publications",
+            "name": "#Publications",
               
               "children": [
           {
-            "name": "#IDC/sq-ft research space"
+            "name": "# Journal Pubs.",
+              
+               "children": [
+          {
+            "name": "# Journal Pubs."
           },
                      
           {
-            "name": "#IDC/faculty"
+            "name": "# Conf Pubs."
            }
-                  
-                
+         
+                  ]
+          },
+                     
+          {
+            "name": "# Conf Pubs."
+           }
+         
                   ]
           },
               
-              
-          {
-            "name": "Conference Papers"
-          },
+             
               
               
           {

@@ -70,104 +70,22 @@
         
         
          {
-        "name": "COSMIC-ps",
-        "parent": "ARCHES",
-          "children": [
-          {
-            "name": "IT concepts",
-            "parent": "COSMIC-ps",
-              
-               "children": [
-                  {
-                      "name": "SDN",
-                      "parent": "IT concepts"
-                  },
-                     {
-                      "name": "NFV",
-                      "parent": "IT concepts"
-                  }
-                   ]
-              
-          },
-          {
-            "name": "Hybrid Simulation",
-            "parent": "COSMIC-ps"
-          },
-              {
-            "name": "Cyber-emulation",
-            "parent": "COSMIC-ps"
-          },
-              {
-            "name": "Faster than Realtime",
-            "parent": "COSMIC-ps"
-          },
-              {
-            "name": "Networked Testbeds",
-            "parent": "COSMIC-ps"
-          },
-              {
-            "name": "Reconfig. Computing",
-            "parent": "COSMIC-ps"
-          }
-        ]
-      },
-        
-        
-        {
-        "name": "DARES",
-        "parent": "ARCHES",
-          "children": [
-          {
-            "name": "Resilience Metrics",
-            "parent": "DARES",
-              
-              "children": [
-                  {
-                      "name": "Recovery",
-                      "parent": "Resilience Metrics"
-                  },
-                  {
-                      "name": "Margins",
-                      "parent": "Resilience Metrics"
-                  },
-                  {
-                      "name": "Adaptiveness/Speed",
-                      "parent": "Resilience Metrics"
-                  }
-                  ]
-                      
-              
+        "name": "Human Capital",
              
-          },
-              
+          "children": [
           {
-            "name": "System Restoration",
-            "parent": "DARES"
+            "name": "# PhD students"
+          },
+          {
+            "name": "# MS Students"
           },
               {
-            "name": "Extreme Events",
-            "parent": "DARES"
-          },
-              {
-            "name": "Cybersecurity",
-            "parent": "DARES"
-          },
-              {
-            "name": "Data Driven Modeling",
-            "parent": "DARES"
-          },
-              {
-            "name": "Energy Market Models",
-            "parent": "DARES"
-          }
-              
+            "name": "# Graduate Degrees"
+          }  
         ]
       }
         
-        
-        
-        
-        
+      
         
     ]
 }

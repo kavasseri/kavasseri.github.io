@@ -24,29 +24,24 @@
             "name": "% faculty with grants" 
           },
             {
-            "name": "#$ Indirects" ,
+            "name": "#IDC" ,
                 
                  "children": [
           {
-            "name": "#$ Indirects/sq-ft research space"
+            "name": "#IDC/sq-ft research space"
           },
+                     
           {
-            "name": "#$ Indirects/faculty"
-           },
-                  
-                   {
-            "name": "# Hello"
-          }
+            "name": "#IDC/faculty"
+           }
                   
                 
                   ]
                 
           },
+            
             {
-            "name": "#$ Indirects/sq-ft research space" 
-          },
-            {
-            "name": "Award Accept Ratio" 
+            "name": "Grant Success Ratio" 
           }  
         ]
       },

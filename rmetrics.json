@@ -52,7 +52,19 @@
           
           "children": [
           {
-            "name": "# Journal Publications"
+            "name": "# Journal Publications",
+              
+              "children": [
+          {
+            "name": "#IDC/sq-ft research space"
+          },
+                     
+          {
+            "name": "#IDC/faculty"
+           }
+                  
+                
+                  ]
           },
               
               

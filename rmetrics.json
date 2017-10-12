@@ -1,14 +1,13 @@
 {
-    "name": "ARCHES",
+    "name": "R Enterprise",
     "parent": "null",
     "children": [
       {
-        "name": "AMPS",
-        "parent": "ARCHES",
+        "name": "Grant-centric",
+        "parent": "R Enterprise",
         "children": [
           {
-            "name": "Scalability",
-            "parent": "AMPS"
+            "name": "Scalability"
           },
           {
             "name": "Model Validation",
@@ -51,7 +50,7 @@
         
         
       {
-        "name": "PEPSY",
+        "name": "Production-centric",
         "parent": "ARCHES",
           "children": [
           {

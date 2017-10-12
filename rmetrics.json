@@ -6,22 +6,37 @@
         "name": "Grant-centric",
         "children": [
           {
-            "name": "Federal Grant $"
-          },
+            "name": "Federal Grant $",
+              
+               "children": [
           {
-            "name": "# Grants"
-          },
-            {
-            "name": "$/grant"
-          },
-            {
             "name": "Grant $/faculty"
           },
-            {
+                     
+          {
+            "name": "$/grant"
+           } 
+                  ]
+              
+          },
+            
+            
+            
+          {
+            "name": "# Grants",
+              
+               "children": [
+          {
             "name": "# Grants/faculty"
           },
-            {
-            "name": "% faculty with grants" 
+                     
+          {
+            "name": "% faculty with grants"
+           } 
+                  ]
+              
+              
+              
           },
             {
             "name": "#IDC" ,

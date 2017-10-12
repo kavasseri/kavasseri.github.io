@@ -24,7 +24,23 @@
             "name": "% faculty with grants" 
           },
             {
-            "name": "#$ Indirects" 
+            "name": "#$ Indirects" ,
+                
+                 "children": [
+          {
+            "name": "#$ Indirects/sq-ft research space"
+          },
+          {
+            "name": "#$ Indirects/faculty"
+           },
+                  
+                   {
+            "name": "# Hello"
+          }
+                  
+                
+                  ]
+                
           },
             {
             "name": "#$ Indirects/sq-ft research space" 
@@ -46,12 +62,16 @@
               "children": [
           {
             "name": "Journal Papers"
-           }
+           },
+                  
+                   {
+            "name": "# Conference Papers"
+          }
+                  
+                
                   ]
           },
-          {
-            "name": "# Conference Papers"
-          },
+         
               {
             "name": "# J. Papers/faculty"
           },
@@ -59,10 +79,10 @@
             "name": "# C. Papers/faculty"
           },
               {
-            "name": "% Fac with J. Papers"   
+            "name": "% Faculty with J. Papers"   
           },
               {
-            "name": "% Fac with C. Papers"   
+            "name": "% Faculty with C. Papers"   
           },
               {
             "name": "# Patents"   

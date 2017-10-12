@@ -22,7 +22,16 @@
           },
             {
             "name": "% faculty with grants" 
-          }
+          },
+            {
+            "name": "#$ Indirects" 
+          },
+            {
+            "name": "#$ Indirects/sq-ft research space" 
+          },
+            {
+            "name": "Award Accept Ratio" 
+          }  
         ]
       },
         

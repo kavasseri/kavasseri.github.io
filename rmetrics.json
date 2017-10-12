@@ -41,28 +41,28 @@
           
           "children": [
           {
-            "name": "# Journal Papers",
+            "name": "# Journal Papers"
           },
           {
-            "name": "# Conference Papers",
+            "name": "# Conference Papers"
           },
               {
-            "name": "# J. Papers/faculty",
+            "name": "# J. Papers/faculty"
           },
               {
-            "name": "# C. Papers/faculty",
+            "name": "# C. Papers/faculty"
           },
               {
-            "name": "% Fac with J. Papers",   
+            "name": "% Fac with J. Papers"   
           },
               {
-            "name": "% Fac with C. Papers",   
+            "name": "% Fac with C. Papers"   
           },
               {
-            "name": "# Patents",   
+            "name": "# Patents"   
           },
               {
-            "name": "# Companies Inc.",   
+            "name": "# Companies Inc."   
           }
                   
         ]

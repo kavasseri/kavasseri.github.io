@@ -52,36 +52,27 @@
           
           "children": [
           {
-            "name": "# Publications",
+            "name": "# Journal Publications"
+          },
               
-              "children": [
+              
           {
-            "name": "Journal Papers",
+            "name": "Conference Papers"
+          },
               
-              "children": [
+              
           {
             "name": "# J. Papers/faculty" 
            },
                   
                    {
             "name": "% Faculty with J. Papers"
-          }
-                  ]
-              ]
-              ]
-              
-              
-              
-           },
-                  
+          },
+               
                    {
             "name": "# Conference Papers"
-          }
-                ]  
-                
-                  
           },
-         
+            
               {
             "name": "# J. Papers/faculty"
           },

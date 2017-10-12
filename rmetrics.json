@@ -60,11 +60,11 @@
               
                "children": [
           {
-            "name": "# Journal Pubs."
+            "name": "# Journal Pubs/Fac"
           },
                      
           {
-            "name": "# Conf Pubs."
+            "name": "% Faculty with J. Papers"
            }
          
                   ]
@@ -83,18 +83,7 @@
           {
             "name": "# J. Papers/faculty" 
            },
-                  
-                   {
-            "name": "% Faculty with J. Papers"
-          },
-               
-                   {
-            "name": "# Conference Papers"
-          },
-            
-              {
-            "name": "# J. Papers/faculty"
-          },
+              
               {
             "name": "# C. Papers/faculty"
           },

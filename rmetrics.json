@@ -129,14 +129,31 @@
              
           "children": [
           {
+            "name": "# Graduate students",
+              
+              "children": [
+          {
             "name": "# PhD students"
           },
           {
-            "name": "# MS Students"
+            "name": "# MS students"
+          }
+        ]
+              
           },
-              {
-            "name": "# Graduate Degrees"
-          }  
+          {
+            "name": "# Graduate Degrees",
+              
+              "children": [
+          {
+            "name": "# PhD degrees"
+          },
+          {
+            "name": "# MS degrees"
+          }
+        ]
+              
+          }
         ]
       }
         

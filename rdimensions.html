@@ -9,15 +9,15 @@
 }
 .node circle {
   fill: deeppink;
-  stroke: white;
+  stroke: #c0392b;
   stroke-width: 1.5px;
 }
   
   
 .node text {
-  font: 18px Helvetica;
-  stroke: white;
-  fill: white;
+  font: 16px Helvetica;
+  stroke: #ecf0f1;
+  fill: #ecf0f1;
 }
 .link {
   fill: none;
@@ -91,7 +91,7 @@ function update(source) {
       .duration(duration)
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
   nodeUpdate.select("circle")
-      .attr("r", 8.5)
+      .attr("r", 6.5)
       .style("fill", function(d) { return d._children ? "#95a5a6" : "#fff"; });
   nodeUpdate.select("text")
       .style("fill-opacity", 1);

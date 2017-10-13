@@ -133,7 +133,13 @@
               
               "children": [
           {
-            "name": "# PhD students"
+            "name": "# PhD students",
+              
+               "children": [
+          {
+            "name": "# PhD students/Fac"
+          }
+                   
           },
           {
             "name": "# MS students"

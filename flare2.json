@@ -5,8 +5,8 @@
       {
         "name": "Level 2: A",
         "children": [
-            {"name": "Son of A","size": 3938},
-            {"name": "Daughter of A","size": 3968}
+            {"name": "Son of A"},
+            {"name": "Daughter of A"}
         ]
       },
       {

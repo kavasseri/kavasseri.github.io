@@ -3,7 +3,7 @@
     "parent": "null",
     "children": [
       {
-        "name": "Level 2: A"
+        "name": "Level 2: A",
         "children": [
           {
             {"name": "Son of A","size": 3938}

@@ -57,8 +57,8 @@ d3.json("flare2.json", function(error, root) {
 
   var path = g.append("path")
     .attr("d", arc)
-   // .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
-    .style("fill", function(d) { return colors[d.name]; })
+    .style("fill", function(d) { return colors((d.children ? d : d.parent).name); })
+   // .style("fill", function(d) { return colors[d.name]; })
     .on("click", click);
 
   var text = g.append("text")

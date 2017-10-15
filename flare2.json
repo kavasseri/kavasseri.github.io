@@ -1,16 +1,16 @@
 {
-    "name": "Top Level",
+    "name": "Top",
     "parent": "null",
     "children": [
       {
-        "name": "Level 2: A", "color": "#c0e2f1",
+        "name": "T1",
         "children": [
-            {"name": "Son of A", "size": 3938, "color": "#c0e2f1"},
-            {"name": "Daughter of A","size": 3238, "color": "#ef69b4"}
+            {"name": "S1", "size": 3938, "color": "#c0e2f1"},
+            {"name": "D1","size": 3238, "color": "#ef69b4"}
         ]
       },
       {
-        "name": "Level 2: B","color": "#a9a9a9"
+        "name": "T2"
       }
     ]
   }

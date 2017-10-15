@@ -3,7 +3,7 @@
     "parent": "null",
     "children": [
       {
-        "name": "Level 2: A", "color": "#ffdafa"
+        "name": "Level 2: A", "color": "#ffdafa",
         "children": [
             {"name": "Son of A", "color": "#c0e2f1"},
             {"name": "Daughter of A", "color": "000000"}

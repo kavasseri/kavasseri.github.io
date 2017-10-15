@@ -5,8 +5,8 @@
       {
         "name": "Level 2: A", "color": "#a9a9a9",
         "children": [
-            {"name": "Son of A", "color": "#c0e2f1"},
-            {"name": "Daughter of A", "color": "000000"}
+            {"name": "Son of A"},
+            {"name": "Daughter of A"}
         ]
       },
       {

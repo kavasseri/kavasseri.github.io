@@ -1,9 +1,9 @@
 {
-    "name": "Top Level",
+    "name": "Top Level","color": "#a3a3a3",
     "parent": "null",
     "children": [
       {
-        "name": "Level 2: A", "color": "#ffdafa",
+        "name": "Level 2: A", "color": "#a9a9a9",
         "children": [
             {"name": "Son of A", "color": "#c0e2f1"},
             {"name": "Daughter of A", "color": "000000"}

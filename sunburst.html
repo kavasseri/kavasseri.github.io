@@ -52,13 +52,13 @@ d3.json("flare2.json", function(error, root) {
       .data(partition.nodes(root))
     .enter().append("g");
   
-  var color = d3.scale.ordinal();
+  var colors = d3.scale.ordinal();
     
 
   var path = g.append("path")
     .attr("d", arc)
-    //.style("fill", function(d) { return colors((d.children ? d : d.parent).name); })
-    .style("fill", function(d) { return color(d.color); })
+    .style("fill", function(d) { return colors((d.children ? d : d.parent).color); })
+   // .style("fill", function(d) { return color(d.color); })
     .on("click", click);
 
   var text = g.append("text")

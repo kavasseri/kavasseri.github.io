@@ -1,6 +1,5 @@
 {
-    "name": "Top","color": "#c0e2f1",
-    "parent": "null",
+    "name": "Root","color": "#c0e2f1",
     "children": [
       {
         "name": "T1","color": "#a3a3a3",

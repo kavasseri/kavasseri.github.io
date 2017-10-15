@@ -1,8 +1,8 @@
 {
-    "name": "Root","color": "#c0e2f1",
+    "name": "Root",,
     "children": [
       {
-        "name": "T1","color": "#a3a3a3",
+        "name": "T1",
         "children": [
             {"name": "S1", "size": 3938, "color": "#a9a9a9"},
             {"name": "D1","size": 3238, "color": "#ef69b4"}

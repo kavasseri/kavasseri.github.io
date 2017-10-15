@@ -28,6 +28,12 @@ var y = d3.scale.linear()
     .range([0, radius]);
 
 var color = d3.scale.category20c();
+  
+  var colors = {
+  "Top": 'a9a9a9',
+  "T1": "#5687d1",
+  "T2": "#7b615c"
+};
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -51,7 +57,8 @@ d3.json("flare2.json", function(error, root) {
 
   var path = g.append("path")
     .attr("d", arc)
-    .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+   // .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+    .style("fill", function(d) { return colors[d.name]; })
     .on("click", click);
 
   var text = g.append("text")

@@ -54,7 +54,7 @@ d3.json("flare2.json", function(error, root) {
   
   var color = d3.scale.ordinal()
     .domain(["T1", "S1", "D1"])
-    .range("#FF0000", "#009933" , "#0000FF");
+    .range(["#FF0000", "#009933" , "#0000FF"]);
 
   var path = g.append("path")
     .attr("d", arc)

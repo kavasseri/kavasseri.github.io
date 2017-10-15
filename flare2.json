@@ -3,14 +3,14 @@
     "parent": "null",
     "children": [
       {
-        "name": "Level 2: A",
+        "name": "Level 2: A", "colour": "#c0e2f1"
         "children": [
             {"name": "Son of A", "size": 3938},
             {"name": "Daughter of A","size": 3238}
         ]
       },
       {
-        "name": "Level 2: B"
+        "name": "Level 2: B","colour": "#a9a9a9"
       }
     ]
   }

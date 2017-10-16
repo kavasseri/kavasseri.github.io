@@ -2,14 +2,14 @@
     "name": "Root",
     "children": [
       {
-        "name": "T1",
+        "name": "T1", "size": 3038, "color": "#a7a7a7",
         "children": [
             {"name": "S1", "size": 3938, "color": "#a9a9a9"},
             {"name": "D1","size": 3238, "color": "#ef69b4"}
         ]
       },
       {
-        "name": "T2", "color": "#c0e2f1"
+        "name": "T2", "size": 4200, "color": "#c0e2f1"
       }
     ]
   }

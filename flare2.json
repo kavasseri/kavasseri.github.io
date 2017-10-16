@@ -1,11 +1,11 @@
 {
-    "name": "Root", "color": "#a1a1a1",
+    "name": "Root", "color": "#ec644b",
     "children": [
       {
-        "name": "T1", "color": "#a7a7a7",
+        "name": "T1", "color": "#947cb0",
         "children": [
-            {"name": "S1", "size": 3000, "color": "#a9a9a9"},
-            {"name": "D1","size": 3000, "color": "#ef69b4"}
+            {"name": "S1", "size": 1, "color": "#a9a9a9"},
+            {"name": "D1","size": 1, "color": "#ef69b4"}
         ]
       },
       {

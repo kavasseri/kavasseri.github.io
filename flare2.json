@@ -2,31 +2,31 @@
     "name": "Root", "color": "#ec644b",
     "children": [
       {
-        "name": "Red", "color": "#740001",
+        "name": "Red", "color": "#740001", "tcolor": "#ffffff",
         "children": [
-            {"name": "S1", "size": 1, "color": "#a9a9a9"},
-            {"name": "D1","size": 1, "color": "#ef69b4"}
+            {"name": "S1", "size": 1, "color": "#a9a9a9","tcolor": "#ffffff"},
+            {"name": "D1","size": 1, "color": "#ef69b4","tcolor": "#ffffff"}
         ]
       },
       {
-        "name": "White", "color": "#f9e895",
+        "name": "White", "color": "#f9e895", "tcolor": "#000000",
           "children": [
-            {"name": "S1", "size": 1, "color": "#a9a9a9"},
-            {"name": "D1","size": 1, "color": "#ef69b4"}
+            {"name": "S1", "size": 1, "color": "#a9a9a9","tcolor": "#000000"},
+            {"name": "D1","size": 1, "color": "#ef69b4","tcolor": "#000000"}
         ]  
       },
         {
-        "name": "Rose", "color": "#f1cbcb",
+        "name": "Rose", "color": "#f1cbcb", "tcolor": "#ffffff",
           "children": [
-            {"name": "S1", "size": 1, "color": "#a9a9a9"},
-            {"name": "D1","size": 1, "color": "#ef69b4"}
+            {"name": "S1", "size": 1, "color": "#a9a9a9","tcolor": "#000000"},
+            {"name": "D1","size": 1, "color": "#ef69b4","tcolor": "#000000"}
         ]  
       },
         {
-        "name": "Sparkling", "color": "#ebf1cb",
+        "name": "Sparkling", "color": "#ebf1cb", "tcolor": "#000000",
           "children": [
-            {"name": "S1", "size": 1, "color": "#a9a9a9"},
-            {"name": "D1","size": 1, "color": "#ef69b4"}
+            {"name": "S1", "size": 1, "color": "#a9a9a9","tcolor": "#000000"},
+            {"name": "D1","size": 1, "color": "#ef69b4","tcolor": "#000000"}
         ]  
       }
         

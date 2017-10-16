@@ -4,8 +4,9 @@
       {
         "name": "Red", "color": "#740001", "tcolor": "#ffffff",
         "children": [
-            {"name": "S1", "size": 1, "color": "#a9a9a9","tcolor": "#ffffff"},
-            {"name": "D1","size": 1, "color": "#ef69b4","tcolor": "#ffffff"}
+            {"name": "Sweet", "size": 1, "color": "#8e1b1b","tcolor": "#ffffff"},
+            {"name": "Savory","size": 1, "color": "#6a1414","tcolor": "#ffffff"},
+            {"name": "Fruity","size": 1, "color": "#470d0d","tcolor": "#ffffff"}
         ]
       },
       {

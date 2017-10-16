@@ -50,10 +50,38 @@
             
             {"name": "Fruity","size": 1, "color": "#470d0d","tcolor": "#ffffff",
              "children": [
-                 {"name": "Blueberry", "size": 1, "color": "#670067","tcolor": "#ffffff"},
-                 {"name": "Blackberry","size": 1, "color": "#340034","tcolor": "#ffffff"},
-                 {"name": "Strawberry", "size": 1, "color": "#c61236","tcolor": "#ffffff"},
-                 {"name": "Cranberry","size": 1, "color": "#dc143c","tcolor": "#ffffff"}
+                 {"name": "Blueberry", "size": 1, "color": "#670067","tcolor": "#ffffff",
+                   "children": [
+                 {"name": "Tannic", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
+                 {"name": "Spicy","size": 1, "color": "#3d0510","tcolor": "#ffffff"},
+                 {"name": "Round","size": 1, "color": "#460613","tcolor": "#ffffff"}
+                                ]
+             
+                 },
+                 {"name": "Blackberry","size": 1, "color": "#340034","tcolor": "#ffffff",
+                   "children": [
+                 {"name": "Tannic", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
+                 {"name": "Spicy","size": 1, "color": "#3d0510","tcolor": "#ffffff"},
+                 {"name": "Round","size": 1, "color": "#460613","tcolor": "#ffffff"}
+                                ]
+                 
+                 
+                 },
+                 {"name": "Strawberry", "size": 1, "color": "#c61236","tcolor": "#ffffff",
+                 "children": [
+                 {"name": "Round", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
+                 {"name": "Spicy","size": 1, "color": "#3d0510","tcolor": "#ffffff"}
+                             ]      
+                 
+                 },
+                 {"name": "Cranberry","size": 1, "color": "#dc143c","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Round", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
+                 {"name": "Juicy","size": 1, "color": "#3d0510","tcolor": "#ffffff"}
+                             ]      
+                 
+                 }
                  ]
             }
         ]

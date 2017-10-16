@@ -5,8 +5,24 @@
         "name": "Red", "color": "#740001", "tcolor": "#ffffff",
         "children": [
             {"name": "Sweet", "size": 1, "color": "#8e1b1b","tcolor": "#ffffff"},
-            {"name": "Savory","size": 1, "color": "#6a1414","tcolor": "#ffffff"},
-            {"name": "Fruity","size": 1, "color": "#470d0d","tcolor": "#ffffff"}
+            {"name": "Savory","size": 1, "color": "#6a1414","tcolor": "#ffffff",
+             
+             "children": [
+                 {"name": "Earthy", "size": 1, "color": "#996633","tcolor": "#ffffff"},
+                 {"name": "Truffle","size": 1, "color": "#513336","tcolor": "#ffffff"},
+                 {"name": "Smoky", "size": 1, "color": "#180f10","tcolor": "#fffffff"},
+                 {"name": "Peppery","size": 1, "color": "#4b4345","tcolor": "#ffffff"}
+                 ]
+            },
+            
+            {"name": "Fruity","size": 1, "color": "#470d0d","tcolor": "#ffffff",
+             "children": [
+                 {"name": "Blueberry", "size": 1, "color": "#670067","tcolor": "#ffffff"},
+                 {"name": "Blackberry","size": 1, "color": "#340034","tcolor": "#ffffff"},
+                 {"name": "Strawberry", "size": 1, "color": "#c61236","tcolor": "#ffffff"},
+                 {"name": "Cranberry","size": 1, "color": "#dc143c","tcolor": "#ffffff"}
+                 ]
+            }
         ]
       },
       {

@@ -52,33 +52,33 @@
              "children": [
                  {"name": "Blueberry", "size": 1, "color": "#670067","tcolor": "#ffffff",
                    "children": [
-                 {"name": "Tannic", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
-                 {"name": "Spicy","size": 1, "color": "#3d0510","tcolor": "#ffffff"},
-                 {"name": "Round","size": 1, "color": "#460613","tcolor": "#ffffff"}
+                 {"name": "Tannic", "size": 1, "color": "#330033","tcolor": "#ffffff"},
+                 {"name": "Spicy","size": 1, "color": "#480048","tcolor": "#ffffff"},
+                 {"name": "Round","size": 1, "color": "#5c005c","tcolor": "#ffffff"}
                                 ]
              
                  },
                  {"name": "Blackberry","size": 1, "color": "#340034","tcolor": "#ffffff",
                    "children": [
-                 {"name": "Tannic", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
-                 {"name": "Spicy","size": 1, "color": "#3d0510","tcolor": "#ffffff"},
-                 {"name": "Round","size": 1, "color": "#460613","tcolor": "#ffffff"}
+                 {"name": "Tannic", "size": 1, "color": "#2e002e","tcolor": "#ffffff"},
+                 {"name": "Spicy","size": 1, "color": "#481948","tcolor": "#ffffff"},
+                 {"name": "Round","size": 1, "color": "#5c325c","tcolor": "#ffffff"}
                                 ]
                  
                  
                  },
                  {"name": "Strawberry", "size": 1, "color": "#c61236","tcolor": "#ffffff",
                  "children": [
-                 {"name": "Round", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
-                 {"name": "Spicy","size": 1, "color": "#3d0510","tcolor": "#ffffff"}
+                 {"name": "Round", "size": 1, "color": "#760a20","tcolor": "#ffffff"},
+                 {"name": "Spicy","size": 1, "color": "#9e0e2b","tcolor": "#ffffff"}
                              ]      
                  
                  },
                  {"name": "Cranberry","size": 1, "color": "#dc143c","tcolor": "#ffffff",
                   
                   "children": [
-                 {"name": "Round", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
-                 {"name": "Juicy","size": 1, "color": "#3d0510","tcolor": "#ffffff"}
+                 {"name": "Round", "size": 1, "color": "#c61236","tcolor": "#ffffff"},
+                 {"name": "Juicy","size": 1, "color": "#9a0e2a","tcolor": "#ffffff"}
                              ]      
                  
                  }

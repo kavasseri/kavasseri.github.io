@@ -119,7 +119,17 @@
                  },
                  {"name": "Strawberry", "size": 1, "color": "#c61236","tcolor": "#ffffff",
                  "children": [
-                 {"name": "Round", "size": 1, "color": "#760a20","tcolor": "#ffffff"},
+                 {"name": "Round", "size": 1, "color": "#760a20","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Pinot Noir", "size": 1, "color": "#400040","tcolor": "#ffffff"},
+                 {"name": "Cotes du Rhone","size": 1, "color": "#320032","tcolor": "#ffffff"}
+                      ]
+                 }
+                                ]
+                 
+                 
+                 },
                  {"name": "Spicy","size": 1, "color": "#9e0e2b","tcolor": "#ffffff",
                   
                   "children": [
@@ -139,7 +149,15 @@
                   
                   "children": [
                  {"name": "Round", "size": 1, "color": "#c61236","tcolor": "#ffffff"},
-                 {"name": "Juicy","size": 1, "color": "#9a0e2a","tcolor": "#ffffff"}
+                 {"name": "Juicy","size": 1, "color": "#9a0e2a","tcolor": "#ffffff",
+                 
+                   "children": [
+                 {"name": "Zweitgeist", "size": 1, "color": "#471947","tcolor": "#ffffff"},
+                 {"name": "Garnay","size": 1, "color": "#5b325b","tcolor": "#ffffff"},
+                 {"name": "Blaufrankisch","size": 1, "color": "#704c70","tcolor": "#ffffff"}
+                      ]
+                 
+                 }
                              ]      
                  
                  }

@@ -52,9 +52,33 @@
              "children": [
                  {"name": "Blueberry", "size": 1, "color": "#670067","tcolor": "#ffffff",
                    "children": [
-                 {"name": "Tannic", "size": 1, "color": "#330033","tcolor": "#ffffff"},
-                 {"name": "Spicy","size": 1, "color": "#480048","tcolor": "#ffffff"},
-                 {"name": "Round","size": 1, "color": "#5c005c","tcolor": "#ffffff"}
+                 {"name": "Tannic", "size": 1, "color": "#330033","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Petite Syrah", "size": 1, "color": "#471947","tcolor": "#ffffff"},
+                 {"name": "Petite Verdot","size": 1, "color": "#5b325b","tcolor": "#ffffff"},
+                 {"name": "Mourvedre","size": 1, "color": "#704c70","tcolor": "#ffffff"}
+                      ]
+                  
+                 },
+                 {"name": "Spicy","size": 1, "color": "#480048","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Shiraj", "size": 1, "color": "#400040","tcolor": "#ffffff"},
+                 {"name": "Monastrelli","size": 1, "color": "#320032","tcolor": "#ffffff"}
+                      ]
+                 
+                 
+                 },
+                 {"name": "Round","size": 1, "color": "#5c005c","tcolor": "#ffffff",
+                 "children": [
+                 {"name": "Malbec", "size": 1, "color": "#370037","tcolor": "#ffffff"},
+                 {"name": "Syrah","size": 1, "color": "#2e002e","tcolor": "#ffffff"},
+                 {"name": "Mencia","size": 1, "color": "#240024","tcolor": "#ffffff"}
+                      ]
+                 
+                 
+                 }
                                 ]
              
                  },

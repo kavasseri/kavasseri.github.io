@@ -84,9 +84,35 @@
                  },
                  {"name": "Blackberry","size": 1, "color": "#340034","tcolor": "#ffffff",
                    "children": [
-                 {"name": "Tannic", "size": 1, "color": "#2e002e","tcolor": "#ffffff"},
-                 {"name": "Spicy","size": 1, "color": "#481948","tcolor": "#ffffff"},
-                 {"name": "Round","size": 1, "color": "#5c325c","tcolor": "#ffffff"}
+                 {"name": "Tannic", "size": 1, "color": "#2e002e","tcolor": "#ffffff",
+                  
+                   "children": [
+                 {"name": "Cabernet", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
+                 {"name": "Tempranillo","size": 1, "color": "#3d0510","tcolor": "#ffffff"},
+                 {"name": "Tuscan","size": 1, "color": "#460613","tcolor": "#ffffff"},
+                 {"name": "Priorat","size": 1, "color": "#460613","tcolor": "#ffffff"}
+
+
+                      ]
+                  
+                  
+                 },
+                 {"name": "Spicy","size": 1, "color": "#481948","tcolor": "#ffffff",
+                  
+                 "children": [
+                 {"name": "Cab Franc", "size": 1, "color": "#400040","tcolor": "#ffffff"},
+                 {"name": "Sangiovese","size": 1, "color": "#320032","tcolor": "#ffffff"}
+                      ]
+                 
+                 },
+                 {"name": "Round","size": 1, "color": "#5c325c","tcolor": "#ffffff",
+                 
+                  "children": [
+                 {"name": "Merlot", "size": 1, "color": "#400040","tcolor": "#ffffff"},
+                 {"name": "Amarone","size": 1, "color": "#320032","tcolor": "#ffffff"}
+                      ]
+                 
+                 }
                                 ]
                  
                  
@@ -94,7 +120,18 @@
                  {"name": "Strawberry", "size": 1, "color": "#c61236","tcolor": "#ffffff",
                  "children": [
                  {"name": "Round", "size": 1, "color": "#760a20","tcolor": "#ffffff"},
-                 {"name": "Spicy","size": 1, "color": "#9e0e2b","tcolor": "#ffffff"}
+                 {"name": "Spicy","size": 1, "color": "#9e0e2b","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Carmanere", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
+                 {"name": "Zinfandel","size": 1, "color": "#3d0510","tcolor": "#ffffff"},
+                 {"name": "Grenache","size": 1, "color": "#460613","tcolor": "#ffffff"},
+                 {"name": "Barbera","size": 1, "color": "#460613","tcolor": "#ffffff"}
+
+                      ]
+                  
+                  
+                 }
                              ]      
                  
                  },

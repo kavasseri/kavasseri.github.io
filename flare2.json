@@ -8,10 +8,43 @@
             {"name": "Savory","size": 1, "color": "#6a1414","tcolor": "#ffffff",
              
              "children": [
-                 {"name": "Earthy", "size": 1, "color": "#996633","tcolor": "#ffffff"},
-                 {"name": "Truffle","size": 1, "color": "#513336","tcolor": "#ffffff"},
-                 {"name": "Smoky", "size": 1, "color": "#180f10","tcolor": "#fffffff"},
-                 {"name": "Peppery","size": 1, "color": "#4b4345","tcolor": "#ffffff"}
+                 {"name": "Earthy", "size": 1, "color": "#420613","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Tannic", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
+                 {"name": "Round","size": 1, "color": "#580818","tcolor": "#ffffff"}
+                      ]
+                 
+                 },
+                 {"name": "Truffle","size": 1, "color": "#b01030","tcolor": "#ffffff",
+                 
+                  "children": [
+                 {"name": "Round", "size": 1, "color": "#c61236","tcolor": "#ffffff"},
+                 {"name": "Juicy","size": 1, "color": "#9a0e2a","tcolor": "#ffffff"}
+                      ]
+                 
+                 
+                 
+                 },
+                 {"name": "Smoky", "size": 1, "color": "#6e0a1e","tcolor": "#ffffff",
+                  
+                   "children": [
+                 {"name": "Tannic", "size": 1, "color": "#840c24","tcolor": "#ffffff"},
+                 {"name": "Soft","size": 1, "color": "#580818","tcolor": "#ffffff"}
+                      ]
+                 
+                 
+                 },
+                 {"name": "Peppery","size": 1, "color": "#34040e","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Tannic", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
+                 {"name": "Spicy","size": 1, "color": "#3d0510","tcolor": "#ffffff"},
+                 {"name": "Round","size": 1, "color": "#460613","tcolor": "#ffffff"},
+
+                      ]
+                 
+                 }
                  ]
             },
             

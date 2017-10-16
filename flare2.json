@@ -1,15 +1,15 @@
 {
-    "name": "Root", "size": 12000, "color": "#a1a1a1",
+    "name": "Root", "color": "#a1a1a1",
     "children": [
       {
-        "name": "T1", "size": 6000, "color": "#a7a7a7",
+        "name": "T1", "color": "#a7a7a7",
         "children": [
             {"name": "S1", "size": 3000, "color": "#a9a9a9"},
             {"name": "D1","size": 3000, "color": "#ef69b4"}
         ]
       },
       {
-        "name": "T2", "size": 6000, "color": "#c0e2f1"
+        "name": "T2", "color": "#c0e2f1"
       }
     ]
   }

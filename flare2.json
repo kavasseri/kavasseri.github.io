@@ -2,14 +2,34 @@
     "name": "Root", "color": "#ec644b",
     "children": [
       {
-        "name": "T1", "color": "#947cb0",
+        "name": "Red", "color": "#740001",
         "children": [
             {"name": "S1", "size": 1, "color": "#a9a9a9"},
             {"name": "D1","size": 1, "color": "#ef69b4"}
         ]
       },
       {
-        "name": "T2", "color": "#c0e2f1"
+        "name": "White", "color": "#f9e895",
+          "children": [
+            {"name": "S1", "size": 1, "color": "#a9a9a9"},
+            {"name": "D1","size": 1, "color": "#ef69b4"}
+        ]  
+      },
+        {
+        "name": "Rose", "color": "#f1cbcb",
+          "children": [
+            {"name": "S1", "size": 1, "color": "#a9a9a9"},
+            {"name": "D1","size": 1, "color": "#ef69b4"}
+        ]  
+      },
+        {
+        "name": "Sparkling", "color": "#ebf1cb",
+          "children": [
+            {"name": "S1", "size": 1, "color": "#a9a9a9"},
+            {"name": "D1","size": 1, "color": "#ef69b4"}
+        ]  
       }
+        
+        
     ]
   }

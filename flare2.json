@@ -11,8 +11,26 @@
                  {"name": "Earthy", "size": 1, "color": "#420613","tcolor": "#ffffff",
                   
                   "children": [
-                 {"name": "Tannic", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
-                 {"name": "Round","size": 1, "color": "#580818","tcolor": "#ffffff"}
+                 {"name": "Tannic", "size": 1, "color": "#2c040c","tcolor": "#ffffff",
+                  
+                   "children": [
+                 {"name": "Barolo", "size": 1, "color": "#c61236","tcolor": "#ffffff"},
+                 {"name": "Chianti","size": 1, "color": "#9a0e2a","tcolor": "#ffffff"},
+                 {"name": "Barbaresco","size": 1, "color": "#9a0e2a","tcolor": "#ffffff"}
+                      ]
+                 
+                 
+                 },
+                 {"name": "Round","size": 1, "color": "#580818","tcolor": "#ffffff",
+                 
+                  "children": [
+                 {"name": "Gigondas", "size": 1, "color": "#c61236","tcolor": "#ffffff"},
+                 {"name": "Carignan","size": 1, "color": "#9a0e2a","tcolor": "#ffffff"},
+                 {"name": "Brunello","size": 1, "color": "#9a0e2a","tcolor": "#ffffff"}
+                      ]
+                 
+                 
+                 }
                       ]
                  
                  },

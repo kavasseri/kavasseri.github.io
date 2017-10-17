@@ -122,7 +122,16 @@
                   
                  "children": [
                  {"name": "Round", "size": 1, "color": "#760a20","tcolor": "#ffffff"},
-                 {"name": "Spicy","size": 1, "color": "#9e0e2b","tcolor": "#ffffff"}
+                 {"name": "Spicy","size": 1, "color": "#9e0e2b","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Carmenere", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
+                 {"name": "Zinfandel","size": 1, "color": "#3d0510","tcolor": "#ffffff"},
+                 {"name": "Grenache","size": 1, "color": "#460613","tcolor": "#ffffff"}
+                      ]
+                 
+                 
+                 }
                                 ]
                  },
                   

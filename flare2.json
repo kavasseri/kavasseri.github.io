@@ -121,7 +121,15 @@
                  {"name": "Strawberry", "size": 1, "color": "#c61236","tcolor": "#ffffff",
                   
                  "children": [
-                 {"name": "Round", "size": 1, "color": "#760a20","tcolor": "#ffffff"},
+                 {"name": "Round", "size": 1, "color": "#760a20","tcolor": "#ffffff",
+                  
+                   "children": [
+                 {"name": "p. Noir", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
+                 {"name": "cotes","size": 1, "color": "#580818","tcolor": "#ffffff"}
+                      ]
+                 
+                 
+                 },
                  {"name": "Spicy","size": 1, "color": "#9e0e2b","tcolor": "#ffffff",
                   
                   "children": [

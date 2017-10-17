@@ -69,7 +69,16 @@
                       ]
                  
                  },
-                 {"name": "Soft","size": 1, "color": "#580818","tcolor": "#ffffff"}
+                 {"name": "Soft","size": 1, "color": "#580818","tcolor": "#ffffff",
+                 
+                  "children": [
+                 {"name": "Graves", "size": 1, "color": "#68202f","tcolor": "#ffffff"},
+                 {"name": "Coenas","size": 1, "color": "#793946","tcolor": "#ffffff"},
+                 {"name": "Cannonau","size": 1, "color": "#460613","tcolor": "#ffffff"}
+                      ]
+                  
+                 
+                 }
                       ]
                  
                  

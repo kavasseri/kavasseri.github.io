@@ -35,8 +35,22 @@
                  {"name": "Truffle","size": 1, "color": "#b01030","tcolor": "#ffffff",
                  
                   "children": [
-                 {"name": "Round", "size": 1, "color": "#c61236","tcolor": "#ffffff"},
-                 {"name": "Juicy","size": 1, "color": "#9a0e2a","tcolor": "#ffffff"}
+                 {"name": "Round", "size": 1, "color": "#c61236","tcolor": "#ffffff",
+                  
+                   "children": [
+                 {"name": "Dolcetto", "size": 1, "color": "#c61236","tcolor": "#ffffff"},
+                 {"name": "Bourgogne","size": 1, "color": "#9a0e2a","tcolor": "#ffffff"}
+                      ]
+                 
+                 },
+                 {"name": "Juicy","size": 1, "color": "#9a0e2a","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Pinotage", "size": 1, "color": "#a4263f","tcolor": "#ffffff"},
+                 {"name": "Beaujolals","size": 1, "color": "#8a0c25","tcolor": "#ffffff"}
+                      ]
+                  
+                 }
                       ]
                  
                  
@@ -45,7 +59,16 @@
                  {"name": "Smoky", "size": 1, "color": "#6e0a1e","tcolor": "#ffffff",
                   
                    "children": [
-                 {"name": "Tannic", "size": 1, "color": "#840c24","tcolor": "#ffffff"},
+                 {"name": "Tannic", "size": 1, "color": "#840c24","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Rioja", "size": 1, "color": "#a4263f","tcolor": "#ffffff"},
+                 {"name": "Cahors","size": 1, "color": "#8a0c25","tcolor": "#ffffff"},
+                 {"name": "Tourasi", "size": 1, "color": "#a4263f","tcolor": "#ffffff"},
+                 {"name": "Aglianico","size": 1, "color": "#8a0c25","tcolor": "#ffffff"}
+                      ]
+                 
+                 },
                  {"name": "Soft","size": 1, "color": "#580818","tcolor": "#ffffff"}
                       ]
                  

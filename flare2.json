@@ -117,20 +117,14 @@
                  
                  
                  },
+                 
                  {"name": "Strawberry", "size": 1, "color": "#c61236","tcolor": "#ffffff",
-                 "children": [
-                 {"name": "Round", "size": 1, "color": "#760a20","tcolor": "#ffffff",
                   
-                  "children": [
-                 {"name": "Pinot Noir", "size": 1, "color": "#400040","tcolor": "#ffffff"},
-                 {"name": "Cotes du Rhone","size": 1, "color": "#320032","tcolor": "#ffffff"}
-                      ]
-                 }
+                 "children": [
+                 {"name": "Round", "size": 1, "color": "#760a20","tcolor": "#ffffff"},
+                 {"name": "Spicy","size": 1, "color": "#9e0e2b","tcolor": "#ffffff"}
                                 ]
-                 
-                 
                  },
-                 {"name": "Spicy","size": 1, "color": "#9e0e2b","tcolor": "#ffffff",
                   
                   "children": [
                  {"name": "Carmanere", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
@@ -165,6 +159,9 @@
             }
         ]
       },
+
+
+
       {
         "name": "White", "color": "#f9e895", "tcolor": "#000000",
           "children": [

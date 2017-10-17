@@ -136,7 +136,17 @@
                  {"name": "Cranberry","size": 1, "color": "#dc143c","tcolor": "#ffffff",
                   
                   "children": [
-                 {"name": "Round", "size": 1, "color": "#c61236","tcolor": "#ffffff"},
+                 {"name": "Round", "size": 1, "color": "#c61236","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "St. Laurent", "size": 1, "color": "#760a20","tcolor": "#ffffff"},
+                 {"name": "Spatburgunder","size": 1, "color": "#9e0e2b","tcolor": "#ffffff"}
+                                ]
+                 
+                 
+                 
+                 },
+                      
                  {"name": "Juicy","size": 1, "color": "#9a0e2a","tcolor": "#ffffff",
                  
                    "children": [

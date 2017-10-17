@@ -86,9 +86,38 @@
                  {"name": "Peppery","size": 1, "color": "#34040e","tcolor": "#ffffff",
                   
                   "children": [
-                 {"name": "Tannic", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
-                 {"name": "Spicy","size": 1, "color": "#3d0510","tcolor": "#ffffff"},
-                 {"name": "Round","size": 1, "color": "#460613","tcolor": "#ffffff"}
+                 {"name": "Tannic", "size": 1, "color": "#2c040c","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Medoc", "size": 1, "color": "#411d24","tcolor": "#ffffff"},
+                 {"name": "Cahors","size": 1, "color": "#56363c","tcolor": "#ffffff"},
+                 {"name": "St. Julien", "size": 1, "color": "#230309","tcolor": "#ffffff"},
+                 {"name": "Pauillac","size": 1, "color": "#27030a","tcolor": "#ffffff"}
+                      ]
+                  
+                 },
+                 {"name": "Spicy","size": 1, "color": "#3d0510","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Chinon", "size": 1, "color": "#36040e","tcolor": "#ffffff"},
+                 {"name": "Bardolino","size": 1, "color": "#30040c","tcolor": "#ffffff"},
+                 {"name": "Bourguiel", "size": 1, "color": "#501d27","tcolor": "#ffffff"},
+                 {"name": "Montepulciano","size": 1, "color": "#2a030b","tcolor": "#ffffff"}
+                      ]
+                  
+                  
+                 },
+                 {"name": "Round","size": 1, "color": "#460613","tcolor": "#ffffff",
+                  
+                  "children": [
+                 {"name": "Rhone", "size": 1, "color": "#581e2a","tcolor": "#ffffff"},
+                 {"name": "Fronsac","size": 1, "color": "#6a3742","tcolor": "#ffffff"},
+                 {"name": "Bandol", "size": 1, "color": "#31040d","tcolor": "#ffffff"},
+                 {"name": "Pomerol","size": 1, "color": "#3f0511","tcolor": "#ffffff"}
+                      ]
+                 
+                 
+                 }
 
                       ]
                  

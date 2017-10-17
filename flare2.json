@@ -277,10 +277,62 @@
         ]  
       },
         {
-        "name": "Rose", "color": "#f1cbcb", "tcolor": "#ffffff",
+        "name": "Rose", "color": "#ffb6c1", "tcolor": "#ffffff",
           "children": [
-            {"name": "S1", "size": 1, "color": "#a9a9a9","tcolor": "#000000"},
-            {"name": "D1","size": 1, "color": "#ef69b4","tcolor": "#000000"}
+            {"name": "Dry", "size": 1, "color": "#ffc4cd","tcolor": "#000000",
+            
+             "children": [
+            {"name": "Fruity", "size": 1, "color": "#ff91ae","tcolor": "#000000",
+             
+             "children": [
+                 {"name": "Tavel", "size": 1, "color": "#ff9cb6","tcolor": "#000000"},
+                 {"name": "Rosado","size": 1, "color": "#ffa7be","tcolor": "#000000"},
+                 {"name": "Sangiovese","size": 1, "color": "#ffbdce","tcolor": "#000000"}
+                        ]
+            
+            },
+            {"name": "Floral","size": 1, "color": "#ffc4d3","tcolor": "#000000",
+             
+            "children": [
+                 {"name": "Grenache Rose", "size": 1, "color": "#e5b0bd","tcolor": "#000000"},
+                 {"name": "p. Noir Rose","size": 1, "color": "#cc9ca8","tcolor": "#000000"},
+                 {"name": "Provence Rose","size": 1, "color": "#b28993","tcolor": "#000000"}
+                        ]
+            
+            },
+            {"name": "Savory", "size": 1, "color": "#ffaac1","tcolor": "#000000",
+             
+             "children": [
+                 {"name": "Bandoll", "size": 1, "color": "#ffdde6","tcolor": "#000000"},
+                 {"name": "Loire","size": 1, "color": "#ffe5ec","tcolor": "#000000"}
+                        ]
+            
+            
+            },
+            {"name": "Meaty","size": 1, "color": "#ffdde6","tcolor": "#000000",
+             
+            "children": [
+                 {"name": "Cab Franc Rose", "size": 1, "color": "#ffe0e8","tcolor": "#000000"},
+                 {"name": "Syrah Rose","size": 1, "color": "#ffe3eb","tcolor": "#000000"},
+                 {"name": "Cab Sauv Rose","size": 1, "color": "#ffe7ed","tcolor": "#000000"}
+                        ]
+            
+            }
+                 ]
+            },
+            {"name": "Sweet","size": 1, "color": "#e5a3ad","tcolor": "#000000",
+             
+             "children": [
+            {"name": "Blush", "size": 1, "color": "#ffb6c1","tcolor": "#000000"},
+            {"name": "Garnacha Rosado","size": 1, "color": "#ffbdc7","tcolor": "#000000"},
+            {"name": "Rose d Anjou", "size": 1, "color": "#ffc4cd","tcolor": "#000000"},
+            {"name": "Vin Gris","size": 1, "color": "#ffcbd3","tcolor": "#000000"},
+            {"name": "White Zin", "size": 1, "color": "#ffd3d9","tcolor": "#000000"},
+            {"name": "White Merlot","size": 1, "color": "#ffdae0","tcolor": "#000000"}
+        ]  
+            
+            
+            }
         ]  
       },
         {

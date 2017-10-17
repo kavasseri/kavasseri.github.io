@@ -18,8 +18,8 @@ text {
 <script>
 
 var width = 1080,
-    height = 960,
-    radius = Math.min(width, height) / 4;
+    height = 1080,
+    radius = Math.min(width, height) / 3;
 
 var x = d3.scale.linear()
     .range([0, 2 * Math.PI]);
@@ -48,7 +48,7 @@ var arc = d3.svg.arc()
     .startAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x))); })
     .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x + d.dx))); })
     .innerRadius(function(d) { return Math.max(0, y(d.y)); })
-    .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
+    .outerRadius(function(d) { return Math.max(0, 1.2*y(d.y + d.dy)); });
 
 d3.json("flare2.json", function(error, root) {
   var g = svg.selectAll("g")

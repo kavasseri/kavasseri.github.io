@@ -126,19 +126,13 @@
                                 ]
                  },
                   
-                  "children": [
-                 {"name": "Carmanere", "size": 1, "color": "#2c040c","tcolor": "#ffffff"},
-                 {"name": "Zinfandel","size": 1, "color": "#3d0510","tcolor": "#ffffff"},
-                 {"name": "Grenache","size": 1, "color": "#460613","tcolor": "#ffffff"},
-                 {"name": "Barbera","size": 1, "color": "#460613","tcolor": "#ffffff"}
-
-                      ]
                   
                   
-                 }
-                             ]      
+                  
                  
-                 },
+                                  
+                 
+                 
                  {"name": "Cranberry","size": 1, "color": "#dc143c","tcolor": "#ffffff",
                   
                   "children": [

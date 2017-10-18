@@ -30,10 +30,19 @@ var svgContainer = d3.select("body").append("svg")
                                     .attr("height", 200);
 
 //Draw the Circle
- var circle = svgContainer.append("circle")
+ var incircle = svgContainer.append("circle")
                           .attr("cx", 30)
                           .attr("cy", 30)
                           .attr("r", 20);
+  
+  var outcircle = svgContainer.append("circle")
+                          .attr("cx", 30)
+                          .attr("cy", 30)
+                          .attr("r", 22)
+                          .style("stroke", "blue")  // colour the line
+                          .style("fill", "none")     // remove any fill colour
+                          .attr("stroke-width", 1)
+
                          
  var line = svgContainer.append("line")
                           .attr("x1", 50)

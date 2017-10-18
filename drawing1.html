@@ -54,6 +54,7 @@ var svgContainer = d3.select("body").append("svg")
   
   var cupholder = svgContainer.append("polyline")          
                                .style("stroke", "black")  // colour the line
+                               .style("fill", "none")     //  fill colour
                                .attr("points", "100,50, 200,150, 300,50")  // x,y points
                                .attr("stroke-width", 2);
  

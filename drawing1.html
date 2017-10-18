@@ -52,10 +52,9 @@ var svgContainer = d3.select("body").append("svg")
                           .attr("stroke-width", 2)
                           .attr("stroke", "black");
   
-  var cupholder = svgContainer.append("path")          // attach a path
+  var cupholder = svgContainer.append("polyline")          
                                .style("stroke", "black")  // colour the line
-                               .style("fill", "none")     // remove any fill colour
-                               .attr("d", "M 100,50, L 200,150, L 300,50 Z")  // path commands 
+                               .attr("points", "100,50, 200,150, 300,50")  // x,y points
                                .attr("stroke-width", 2);
  
   var wine     = svgContainer.append("path")          // attach a path

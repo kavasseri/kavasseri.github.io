@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Drawing Examples</title>
+<head>
+  <title> Test Plot</title>
   </head>
-  <body>
-    
-   <script src="//d3js.org/d3.v3.min.js"></script>
-    
-    <script>
+<meta charset="utf-8">
+<style>
+.node {
+  cursor: pointer;
+}
+.node circle {
+  fill: deeppink;
+  stroke: black;
+  stroke-width: 1.5px;
+}
+.node text {
+  font: 18px sans-serif;
+}
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+</style>
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+
+
       
    var svgContainer = d3.select("body").append("svg")
                       .attr("width", 200)
@@ -22,6 +40,4 @@
     </script>
     
     
-  </body>
   
-</html>

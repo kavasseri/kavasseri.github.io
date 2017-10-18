@@ -26,8 +26,8 @@
 <script>
 
 var svgContainer = d3.select("body").append("svg")
-                                    .attr("width", 200)
-                                    .attr("height", 200);
+                                    .attr("width", 900)
+                                    .attr("height", 900);
 
 //Draw the Circle
  var incircle = svgContainer.append("circle")
@@ -51,7 +51,16 @@ var svgContainer = d3.select("body").append("svg")
                           .attr("y2", 30)
                           .attr("stroke-width", 2)
                           .attr("stroke", "black");
-      
+  
+  var cupholder = svgContainer.append("path")          // attach a path
+                               .style("stroke", "black")  // colour the line
+                               .style("fill", "none")     // remove any fill colour
+                               .attr("d", "M 100,50, L 200,150, L 300,50 Z");  // path commands 
+ 
+  var wine     = svgContainer.append("path")          // attach a path
+                               .style("stroke", "none")  // no outline
+                               .style("fill", "pink")     //  fill colour
+                               .attr("d", "M 150,100, L 200,150, L 250,100 Z");  // path commands 
    
       
       

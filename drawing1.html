@@ -64,10 +64,26 @@ var svgContainer = d3.select("body").append("svg")
                                .attr("d", "M 150,100, L 200,150, L 250,100 Z")  // path commands 
                                .attr("stroke-width", 2);
   
- var cup = svgContainer.append("polyline")      // attach a polyline
-    .style("stroke", "black")  // colour the line
-    .style("fill", "none")     // remove any fill colour
-    .attr("points", "100,50, 200,150, 300,50");  // x,y points
+ //var cup = svgContainer.append("polyline")      // attach a polyline
+  //  .style("stroke", "black")  // colour the line
+   // .style("fill", "none")     // remove any fill colour
+  //  .attr("points", "100,50, 200,150, 300,50");  // x,y points
+  
+  var stem = svgContainer.append("line")
+                          .attr("x1", 200)
+                          .attr("y1", 150)
+                          .attr("x2", 200)
+                          .attr("y2", 300)
+                          .attr("stroke-width", 2)
+                          .attr("stroke", "black");
+  
+  var base = svgContainer.append("line")
+                          .attr("x1", 190)
+                          .attr("y1", 300)
+                          .attr("x2", 210)
+                          .attr("y2", 300)
+                          .attr("stroke-width", 2)
+                          .attr("stroke", "black");
 
    
       

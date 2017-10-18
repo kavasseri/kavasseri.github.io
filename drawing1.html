@@ -56,11 +56,13 @@ var svgContainer = d3.select("body").append("svg")
                                .style("stroke", "black")  // colour the line
                                .style("fill", "none")     // remove any fill colour
                                .attr("d", "M 100,50, L 200,150, L 300,50 Z");  // path commands 
+                               .attr("stroke-width", 2)
  
   var wine     = svgContainer.append("path")          // attach a path
                                .style("stroke", "none")  // no outline
                                .style("fill", "pink")     //  fill colour
                                .attr("d", "M 150,100, L 200,150, L 250,100 Z");  // path commands 
+                               .attr("stroke-width", 2)
    
       
       

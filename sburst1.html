@@ -56,6 +56,13 @@ var svg = d3.select("body").append("svg")
     .attr("height", height)
     .append("g")
     .attr("transform", "translate(" + width / 2 + "," + (height / 2 + 10) + ")");
+  
+  var myText =  svg.append("text")
+       .attr("y", 10)//magic number here
+       .attr("x", width/2)
+       .attr('text-anchor', 'middle')
+       .text("Research Enterprise");
+    
 
     var tooltip = d3.select("body")
         .append("div")

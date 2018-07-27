@@ -1,0 +1,29 @@
+{
+        "name": "Home",  "color": "#b2bec3",
+        "children":
+        [{
+            "name": "Culture","color": "#de425b",
+            "children": [{"name": "Sub C1", "size": 4, "tcolor": "#000000", "color": "#e26971","notes": ""},
+                         {"name": "Sub C2", "size": 4, "color": "#ee9092"},
+                         {"name": "Sub C3", "size": 4, "color": "#f7b5b5"}]
+        },
+        {
+            "name": "Pride", "color": "#ff7675",
+            "children": [{"name": "Sub P1", "size": 3, "color": "#ff9190"},
+                         {"name": "Sub P2", "size": 3, "color": "#ffacac"},
+                         {"name": "Sub P3", "size": 3, "color": "#ffc8c7"}]
+        },
+        {
+            "name": "Wellness","color":"#00b894",
+            "children": [ {"name": "Sub W1", "size": 4, "color": "#32c6a9"},
+                          {"name": "Sub W2", "size": 4, "color": "#66d4be"},
+                          {"name": "Sub W3", "size": 4, "color": "#99e2d4"}  ]
+        },
+        {
+            "name": "Mindset","color":"#a29bfe",
+            "children": [{"name": "Sub M1", "size": 4, "color":"#b4aefe"},
+                        {"name": "Sub M2", "size": 4,"color":"#d8d5ff" },
+                        {"name": "Sub M3", "size": 4,"color":"#c6c2fe" }]
+        }
+      ]
+    }

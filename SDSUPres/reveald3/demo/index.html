@@ -1,0 +1,130 @@
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11"/>
+    <link rel="stylesheet" href="reveal.js/css/reveal.css">
+
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+
+</head>
+<body>
+
+
+<div class="reveal">
+<div class="slides">
+
+
+<!-- TITLE SLIDE -->
+<section data-background-image="figbgs/pic1.png"></section>
+
+<!-- VISION BIG PICTURE ELEMENTS HERE : 1,2,3-->
+<section data-background-image="figbgs/visionElement1.png"></section>
+<section data-background-image="figbgs/vision1Details.png"></section>
+<section data-background-image="figbgs/visionElement2.png"></section>
+
+
+
+
+
+<section data-transition="zoom">
+    <h3> CARNEGIE: R1/VHR vs R2/HR </h3>
+    <div  class="fig-container" 
+          data-file="d3-fig/barchartcompare.html" 
+          data-style="height: 900px; margin-top: 10px; width: 900px;">
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section data-background-image="figbgs/visionElement3.png"></section>
+
+
+
+
+<section data-transition="zoom">
+        <h2>DIMENSIONS </h2>
+        <div  class="fig-container" 
+              data-file="d3-fig/renter1.html" 
+              data-style="height: 900px; margin-top: 10px; width: 900px;">
+        </div>
+      </section>
+
+ 
+
+</div> <!-- slides -->
+</div> <!-- Reveal -->
+
+<script src="reveal.js/js/reveal.js"></script>
+<script>
+
+// Full list of configuration options available at:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: false,
+    center: false,
+    transition: 'fade',
+    viewDistance: 3, // to lazy load iframes
+
+    // // optional configurations for reveald3
+    reveald3: {
+
+         // If the previous slide is a slide further in the deck (i.e. we come back to
+         // slide from the next slide), by default the last fragment transition will be
+         // triggered to to get the last state of the visualization and simulate the
+         // the state the simulation was in when we left the slide. This can be
+         // discarded.
+         runLastState: false, //default true
+
+         progress: true,
+
+
+         // If a special onSlideChanged transition has been set (if for example the visualization
+         // has been preloaded using the data-preload attribute, and you want a specific transition
+         // to happen only when you arrive on the slide), you can choose the delay with which such 
+         // a transition will occur (note that in the case of no data-preload, if no delay is set then
+         // the transition might not occur since the iframe might not be fully loaded yet when the 
+         // function is triggered). // default 0. 
+         onSlideChangedDelay: 400,
+
+         // This will prefix the path attributes of the source html paths with the given path.
+         // (by default "src" if set to true or with the specified path if string)
+         mapPath: false, // default: false
+
+         // If true, will try to locate the file at a fallback url without the mapPath prefix in case no file is found
+         // at the stipulated url with mapPath
+         tryFallbackURL: false, //default false
+
+         // Checking for file existance has been reported to fail in rare 
+         // cases though files did exist. This option is to disable the file checking.
+         //see: https://github.com/gcalmettes/reveal.js-d3/issues/10
+         disableCheckFile: false, //default false,
+    },
+
+    // Reveal.js plugins
+    dependencies: [
+
+        { src: '../reveald3.js' },
+
+    ]
+});
+
+</script>
+</body>
+</html>

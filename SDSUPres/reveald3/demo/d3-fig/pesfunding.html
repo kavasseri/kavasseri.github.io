@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        width:900px;
+        height: 500px;
+        position: relative;
+    }
+    
+    /*
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 960px;
+      height: 500px;
+      position: relative;
+    }
+    */
+    svg {
+        width: 100%;
+        height: 100%;
+        position: center;
+        color: aliceblue;
+    }
+    path.slice{
+        stroke-width:2px;
+    }
+    text{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    polyline{
+        opacity: .3;
+        stroke: black;
+        stroke-width: 2px;
+        fill: none;
+    }
+    .labelValue
+    {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 80%;
+        opacity: .5;
+    }
+    label {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+    }
+    .toolTip {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        position: absolute;
+        display: none;
+        width: auto;
+        height: auto;
+        background: none repeat scroll 0 0 white;
+        border: 0 none;
+        border-radius: 8px 8px 8px 8px;
+        box-shadow: -3px 3px 15px #888888;
+        color: black;
+        font: 12px sans-serif;
+        padding: 5px;
+        text-align: center;
+    }
+    .legend {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 90%;
+    }
+    rect {
+        stroke-width: 2;
+    }
+    text {
+        font: 10px sans-serif;
+    }
+    text.value{
+        font-size: 300%;
+        fill: white;
+    }
+    text.label{
+        font-size: 100%;
+    }
+    .axis text {
+        font: 12px sans-serif;
+    }
+    .axis path{
+        fill: none;
+        stroke: #f0f;
+    }
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+    .axis .tick line {
+        stroke-width: 3;
+        stroke: rgba(0, 0, 255, 0.9);
+    }
+    .axisHorizontal path{
+        fill: none;
+    }
+    .axisHorizontal line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+    .axisHorizontal .tick line {
+        stroke-width: 3;
+        stroke: rgba(0, 0, 255, 0.9);
+    }
+    .bar {
+        fill: rgb(5, 7, 100);
+        fill-opacity: .95;
+    }
+    .x.axis path {
+        display: none;
+    }
+</style>
+<body>
+<form>
+    <label><input type="radio" name="dataset" id="dataset" value="total" checked> Govt</label>
+    <label><input type="radio" name="dataset" id="dataset" value="option1"> Utilities</label>
+    <label><input type="radio" name="dataset" id="dataset" value="option2"> Industry</label>
+</form>
+
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script>
+    d3.select("input[value=\"total\"]").property("checked", true);
+    datasetTotal = [
+        {label:"1969-70", value:7.5},
+        {label:"1971-72", value:46.1},
+        {label:"1973-74", value:50.1},
+        {label:"1975-76", value:67.4},
+        {label:"1977-78", value:75.2},
+        {label:"1979-80", value:68.3},
+        {label:"1981-82", value:57.2},
+        {label:"1985-86", value:44.1},
+        {label:"1987-88", value:45.1},
+        {label:"1989-90", value:44.2},
+        {label:"1993-94", value:46.7},
+        {label:"2001-02", value:73.6},
+        {label:"2005-06", value:70.4},
+        {label:"2013-14", value:73.5},
+        {label:"2015-16", value:68.3}
+    ];
+    datasetOption1 = [
+         {label:"1969-70", value:82.7},
+        {label:"1971-72", value:44.9},
+        {label:"1973-74", value:38.8},
+        {label:"1975-76", value:23.5},
+        {label:"1977-78", value:21.9},
+        {label:"1979-80", value:25.7},
+        {label:"1981-82", value:36.2},
+        {label:"1985-86", value:42.2},
+        {label:"1987-88", value:42.1},
+        {label:"1989-90", value:49.3},
+        {label:"1993-94", value:46.2},
+        {label:"2001-02", value:14.5},
+        {label:"2005-06", value:16.3},
+        {label:"2013-14", value:13.3},
+        {label:"2015-16", value:15.8}
+    ];
+    datasetOption2 = [
+        {label:"1969-70", value:9.7},
+        {label:"1971-72", value:9.0},
+        {label:"1973-74", value:11.1},
+        {label:"1975-76", value:9.1},
+        {label:"1977-78", value:2.9},
+        {label:"1979-80", value:6.0},
+        {label:"1981-82", value:6.6},
+        {label:"1985-86", value:13.7},
+        {label:"1987-88", value:12.7},
+        {label:"1989-90", value:6.5},
+        {label:"1993-94", value:7.1},
+        {label:"2001-02", value:11.9},
+        {label:"2005-06", value:13.3},
+        {label:"2013-14", value:73.2},
+        {label:"2015-16", value:15.8}
+    ];
+    d3.selectAll("input").on("change", selectDataset);
+    function selectDataset()
+    {
+        var value = this.value;
+        if (value == "total")
+        {
+            change(datasetTotal);
+        }
+        else if (value == "option1")
+        {
+            change(datasetOption1);
+        }
+        else if (value == "option2")
+        {
+            change(datasetOption2);
+        }
+    }
+    var margin = {top: (parseInt(d3.select('body').style('height'), 10)/10), right: (parseInt(d3.select('body').style('width'), 10)/20), bottom: (parseInt(d3.select('body').style('height'), 10)/10), left: (parseInt(d3.select('body').style('width'), 10)/20)},
+            width = parseInt(d3.select('body').style('width'), 10) - margin.left - margin.right,
+            height = parseInt(d3.select('body').style('height'), 10) - margin.top - margin.bottom;
+    var div = d3.select("body").append("div").attr("class", "toolTip");
+    var formatPercent = d3.format("");
+    var x = d3.scale.ordinal()
+            .rangeRoundBands([0, width], .2, 0.5);
+    var y = d3.scale.linear()
+            .range([height, 0]);
+    var xAxis = d3.svg.axis()
+            .scale(x)
+            .orient("bottom");
+    var yAxis = d3.svg.axis()
+            .scale(y)
+            .orient("left")
+            .tickFormat(formatPercent);
+    var svg = d3.select("body").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis);
+    change(datasetTotal);
+    function change(dataset) {
+        x.domain(dataset.map(function(d) { return d.label; }));
+        y.domain([0, d3.max(dataset, function(d) { return d.value; })]);
+        svg.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + height + ")")
+                .call(xAxis);
+        svg.select(".y.axis").remove();
+        svg.select(".x.axis").remove();
+        svg.append("g")
+                .attr("class", "y axis")
+                .call(yAxis)
+                .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 6)
+                .attr("dy", ".71em")
+                .style("text-anchor", "end")
+                .text("Distribution %");
+        var bar = svg.selectAll(".bar")
+                .data(dataset, function(d) { return d.label; });
+        // new data:
+        bar.enter().append("rect")
+                .attr("class", "bar")
+                .attr("x", function(d) { return x(d.label); })
+                .attr("y", function(d) { return y(d.value); })
+                .attr("height", function(d) { return height - y(d.value); })
+                .attr("width", x.rangeBand());
+        bar
+                .on("mousemove", function(d){
+                    div.style("left", d3.event.pageX+10+"px");
+                    div.style("top", d3.event.pageY-25+"px");
+                    div.style("display", "inline-block");
+                    div.html((d.label)+"<br>"+(d.value)+"%");
+                });
+        bar
+                .on("mouseout", function(d){
+                    div.style("display", "none");
+                });
+        // removed data:
+        bar.exit().remove();
+        // updated data:
+        bar
+                .transition()
+                .duration(750)
+                .attr("y", function(d) { return y(d.value); })
+                .attr("height", function(d) { return height - y(d.value); });
+    };
+</script>
+</body>
